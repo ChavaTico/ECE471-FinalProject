@@ -1,0 +1,119 @@
+eigen vals:
+  3662.98 ; 53.1156%
+  1590.39 ; 23.0618%
+  616.018 ; 8.93267%
+  524.73 ; 7.60893%
+  500.521 ; 7.25789%
+  1.39946 ; 0.0202931%
+  0.196512 ; 0.00284956%
+eigen vectors:
+0.463063;0.181487;-0.711595;-0.0997141;-0.486074;0.00518512;0.00549747 
+
+-0.00316653;0.00648348;-0.000260509;0.00513428;0.00915789;0.999696;-0.0210844 
+
+-0.00621533;0.443438;0.00535017;-0.835939;0.323249;-0.00162497;-0.00297995 
+
+-0.0953254;0.874916;0.0974514;0.464608;-0.002229;-0.00835632;-0.00188781 
+
+-0.00631298;0.00195385;0.001344;-0.000794996;0.00444218;0.0210165;0.999746 
+
+-0.881133;-0.00232147;-0.383563;-0.0972212;-0.258865;-8.88974e-05;-0.00396903 
+
+-0.00150473;-0.0699728;-0.580504;0.256757;0.769495;-0.00811505;-0.00213669 
+
+total eigen sum: 6896.232422
+
+MPP Training Accuracy
+Case1:;69.13580247
+Case2:;68.4624018
+Case3:;68.91133558
+
+MPP Training Accuracy 18-Fold Cross Validation
+Case1:;69.13580247
+Case2:;69.02356902
+Case3:;70.14590348
+
+kNN Training Accuracy 18-Fold Cross Validation
+Best K Val:;1
+Best Acc:;87.76655197
+
+Possible additional Clusters using KMeans and WTA Clustering:
+WCount; 342
+WCount; 0
+hopped out in;2
+256 KMeans Done
+WCount; 342
+WCount; 0
+hopped out in;2
+128;KMeans Done
+WCount; 342
+WCount; 0
+hopped out in;2
+64 KMeans Done
+WCount; 342
+WCount; 0
+hopped out in;2
+32;KMeans Done
+WCount; 342
+WCount; 0
+hopped out in;2
+2;KMeans Done
+WCount;858;lRate;0.5
+WCount;731;lRate;0.5
+WCount;780;lRate;0.5
+WCount;601;lRate;0.25
+WCount;35;lRate;0.25
+WCount;0;lRate;0.25
+hopped out in;6
+256 WTA Done
+WCount;858;lRate;0.5
+WCount;731;lRate;0.5
+WCount;780;lRate;0.5
+WCount;601;lRate;0.25
+WCount;35;lRate;0.25
+WCount;0;lRate;0.25
+hopped out in;6
+128;WTA Done
+WCount;858;lRate;0.5
+WCount;731;lRate;0.5
+WCount;780;lRate;0.5
+WCount;601;lRate;0.25
+WCount;35;lRate;0.25
+WCount;0;lRate;0.25
+hopped out in;6
+64;WTA Done
+WCount;858;lRate;0.5
+WCount;731;lRate;0.5
+WCount;780;lRate;0.5
+WCount;601;lRate;0.25
+WCount;35;lRate;0.25
+WCount;0;lRate;0.25
+hopped out in;6
+32;WTA Done
+WCount;442;lRate;0.5
+WCount;0;lRate;0.5
+hopped out in;2
+2;WTA Done
+
+Classifier Fusion: KNN and MPP Case 3
+Confusion Matrices
+C3;0;1
+0;162;82;
+1;77;97;
+
+
+KNN;0;1
+0;244;0;
+1;0;174;
+
+
+METRICS OF SURVIORS:
+Total Surviors in Test Set: 174 out of 418
+Men: ;64 ; Woman:; 110
+First Class:; 65
+Second Class:; 45
+Third Class:; 64
+Avg. # of Siblings of Survivor on Board(rounded):; 0
+Avg. # of Parents of Survivor on Board(rounded):; 0
+Avg. Ticket Fare Paid by Survivor:; 21.27942537
+
